@@ -25,6 +25,16 @@
     .day_night{
         padding: 1.5em;
     }
+    .me img{
+        max-width: 100px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+    }
+    .me img:hover,
+    .me img:active{
+        border: 2px solid blueviolet;
+        box-shadow: 0px 0px 5px blueviolet;
+    }
     nav{
         padding: 1em 0em;
         display: flex;
@@ -66,7 +76,8 @@ nav a:focus{
     }
     footer{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-direction: column;
         padding: 2.5em 0em;
     }
     footer p{
@@ -74,6 +85,14 @@ nav a:focus{
         text-align: center;
         margin: 0px;
         padding: 5px 0px;
+    }
+    #twitter-widget-0{
+        display: inline-block;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .center{
+        text-align: center;
     }
     .settings-title {
   text-align: center;
