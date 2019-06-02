@@ -19,7 +19,7 @@
 <meta property="og:title" content="">
 <meta property="og:description" content="Praveen Pal is an freelance front-end and UI/UX developer based in New Delhi, India.">
     
-<title>Praveen Pal | Freelance Front-End Developer | UI/UX Developer</title>
+<title>About - Praveen Pal | Freelance Front-End Developer | UI/UX Developer</title>
     
 <link rel="apple-touch-icon" sizes="57x57" href="img/info/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/info/apple-icon-60x60.png">
@@ -56,33 +56,34 @@
               </div>
           </header>
           <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Resourses</a>
-            <a href="about.html">About</a>
+          <a href="index.html">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Resourses</a>
+          <a href="about.html">About</a>
       </nav>
-      <ul class="blog_list">
-        <li>
-          <h1><a href="#">Hello, world!</a></h1>
-      <p>Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric.</p>
-          <time class="date" datetime="Thu, 27 Sep 2018 00:00:00 GMT">September 27, 2018</time>
-        </li>
-        <li>
-          <h1><a href="#">Hello, world!</a></h1>
-      <p>Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric.</p>
-          <time class="date" datetime="Thu, 27 Sep 2018 00:00:00 GMT">September 27, 2018</time>
-        </li>
-        <li>
-          <h1><a href="#">Hello, world!</a></h1>
-      <p>Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric.</p>
-          <time class="date" datetime="Thu, 27 Sep 2018 00:00:00 GMT">September 27, 2018</time>
-        </li>
-        <li>
-          <h1><a href="#">Hello, world!</a></h1>
-      <p>Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric.</p>
-          <time class="date" datetime="Thu, 27 Sep 2018 00:00:00 GMT">September 27, 2018</time>
-        </li>
-      </ul>
+      <div class="about">
+          <h1>Hey there! Welcome. I’m Praveen.</h1>
+          <img src="img/Hello_Praveen_Pal.jpg" alt="Hello Praveen Pal">
+          <p></p>I’m a front-end and UI / UX developer based in New Delhi. I love the Web platform and I want to make it better for everyone. And I consider myself to be completely blessed that I get to build it for a living.</p>
+          <p>I am completing my bachelor's in computers from Indira Gandhi Open National University. I’ve always wanted to study multiple majors because I never wanted to stop learning. I’m grateful that I ended up in a field where one of the major requirements for staying relevant is to continuously keep learning.</p>
+          <p>Worked with Rahu Designs as a freelancer, building Web sites and application UIs with a strong focus on responsive design, accessibility, performance, and the latest in the area of front-end (CSS, Grid, Design Thinking). I also an active member of Designers and Developers Communities across the Delhi-NCR like GDG-New Delhi, Facebook Developer Circle, also focusing on CSS, Grid, Design Thinking, Responsive Design and accessibility, covering practical tips on how to build front ends using modern tools and techniques that scale and are future-proof.</p>
+
+          <div class="get_in_touch">
+          <p>Get in touch</p>
+          <a href="https://github.com/PraveenPal4232/" target="_blank" style="padding-left:0;">Github</a>
+          <a href="https://twitter.com/PraveenPal4232" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/praveenpal4232/" target="_blank">Linkedin</a>
+          <a href="https://www.facebook.com/praveenpal4232" target="_blank">Facebook</a>
+        </div>
+
+          <h2>Some trivia about me :-)</h2>
+          <ul class="trivia">
+              <li>I'm conservative yet social. I like to spend my weekends with new people having same interests as me in various communities. Social gatherings for technical and designing purposes are my heaven.</li>
+              <li>Music is in my blood and poems, couplets are my oxygen.</li>
+              <li>I love simplicity and minimalism as way of life.</li>
+              <li>I've a long-term vision and a sense of humour & lots of it.</li>
+          </ul>
+      </div>
      
         <footer>
           <a href="https://twitter.com/PraveenPal4232?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @PraveenPal4232</a>
@@ -92,32 +93,32 @@
       
       <script>
 
-          (function () {
-              var toggler = document.querySelector('.theme-toggler input[type="checkbox"]'),
-                  root = document.documentElement,
-                  currentTheme = localStorage.getItem('theme') || "dark";
-      
-              if (currentTheme == "light") toggler.removeAttribute('checked');
-              else toggler.checked = "true";
-      
-              root.setAttribute('data-theme', currentTheme);
-      
-              toggler.addEventListener('change', toggleTheme, false);
-      
-              function toggleTheme(e) {
-                  if (this.checked) {
-                      root.setAttribute('data-theme', 'dark');
-                      localStorage.setItem('theme', 'dark');
-                  }
-                  else {
-                      root.setAttribute('data-theme', 'light');
-                      localStorage.setItem('theme', 'light');
-                  }
-              }
-          })();
-          
-      </script> 
-      
+            (function () {
+                var toggler = document.querySelector('.theme-toggler input[type="checkbox"]'),
+                    root = document.documentElement,
+                    currentTheme = localStorage.getItem('theme') || "dark";
+        
+                if (currentTheme == "light") toggler.removeAttribute('checked');
+                else toggler.checked = "true";
+        
+                root.setAttribute('data-theme', currentTheme);
+        
+                toggler.addEventListener('change', toggleTheme, false);
+        
+                function toggleTheme(e) {
+                    if (this.checked) {
+                        root.setAttribute('data-theme', 'dark');
+                        localStorage.setItem('theme', 'dark');
+                    }
+                    else {
+                        root.setAttribute('data-theme', 'light');
+                        localStorage.setItem('theme', 'light');
+                    }
+                }
+            })();
+            
+        </script>
+
         </main>
   </body>
 </html>
