@@ -209,6 +209,12 @@ padding: 0 1em;
 list-style: square;
 line-height: 2;
   }
+  .resourses{
+    margin: 0 1em;
+  }
+  .resourses img{
+    margin: 1em 0;
+  }
   html[data-theme="dark"] {
     background-color: #1f1b27;
     color: #e2d9f2;
