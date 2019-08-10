@@ -1,52 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu:400,700&display=swap');
 
-/* HTML5  reset for  browsers */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-
  html{
     font-family: 'Ubuntu', sans-serif;
-    line-height: 1.15;
-    font-size: calc(14px + .25vw);
-    position: relative;
-    overflow-x: hidden;
-    margin: 0 auto;
-    font-weight: 400;
     color: #000;
 }
 ::selection {
     background: #E1A6EC;
-}   
- h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .serif {
-    font-weight: 900;
-    margin-bottom: 0.5rem;
 }
-h1, .h1 {
-    font-size: 2.5rem;
-  }
-  
-  h2, .h2 {
-    font-size: 2rem;
-  }
-  
-  h3, .h3 {
-    font-size: 1.75rem;
-  }
-  
-  h4, .h4 {
-    font-size: 1.5rem;
-  }
-  
-  h5, .h5 {
-    font-size: 1.25rem;
-  }
-  
-  h6, .h6 {
-    font-size: 1rem;
-  }
-p {
-    margin-bottom: 1rem;
-    line-height: 1.15;
-  }
+img {
+  vertical-align: middle;
+  border-style: none;
+}
 a{
     color: #000;
     text-decoration: none;
@@ -69,6 +33,9 @@ background-color: #E1A6EC;
         max-width: 700px;
         margin: auto;
     }
+      ul{
+        padding-left: 0px;
+      }
     img{
         width: 100%;
     }
@@ -100,7 +67,7 @@ background-color: #E1A6EC;
         margin-bottom: 1em;
     }
     .blog_list li{
-        padding: 1em;
+        padding: 0em 1em 1em;
         border:1px solid #ccc;
         margin: 2em 1em;
         border-radius: .5em;
@@ -121,7 +88,6 @@ background-color: #E1A6EC;
         text-align: center;
     }
 .settings-option {
-  border: 1px solid #eee;
   padding: 0.5em 1em;
   border-radius: 5px;
   display: flex;
@@ -197,7 +163,7 @@ background-color: #E1A6EC;
   }
   .about_img{
     margin: 1em 0;
-    background-color: #aa98cd;
+   border: 5px solid#aa98cd;
   }
   .get_in_touch{
       padding: 1em 0;
@@ -227,9 +193,6 @@ html[data-theme="dark"] a:focus,
 html[data-theme="dark"] a:active {
     color: #e2d9f2;
     background-color: blueviolet;
-}
-html[data-theme="dark"] .about_img img{
-  mix-blend-mode: multiply;
 }
 .clearfix::after {
   content: "";
