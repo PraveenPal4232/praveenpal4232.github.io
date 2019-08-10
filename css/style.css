@@ -11,6 +11,9 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+ul li{
+  list-style-type: none;
+}
 a{
     color: #000;
     text-decoration: none;
@@ -177,6 +180,10 @@ line-height: 2;
   }
   .resourses{
     margin: 0 1em;
+  }
+  .resourses_list li{
+    padding: 1em 0;
+    border-bottom: 1px dashed;
   }
   .resourses img{
     margin: 1em 0;
