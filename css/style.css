@@ -47,11 +47,12 @@ a:before {
     content: "";
     width: 80%;
     height: 5px;
-    background-color: #ffd900;
+    background-color: #FEDC2A;
     top: 45%;
     left: 10%;
     z-index: -1;
-    transition: width .25s, height .5s;
+    -webkit-transition: all .275s;
+    transition: all .275s;
 }
 a:hover:before,
 a:active:before{
@@ -59,7 +60,8 @@ a:active:before{
     left: 0;
     top: auto;
     height: 110%;
-    transition: width .25s, height .5s;
+    -webkit-transition: all .275s;
+    transition: all .275s;
 }
 .misson{
     text-align: center;
@@ -122,7 +124,7 @@ figcaption{
 }
 blockquote{
     padding-left: 1em;
-    border-left: .5rem solid #ffd900;
+    border-left: .5rem solid #FEDC2A;
     font-family: 'Anton', sans-serif;
 }
 .more-blog{
