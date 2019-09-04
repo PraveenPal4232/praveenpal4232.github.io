@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700,900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -21,6 +22,7 @@ li{
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Hepta Slab', serif;
     color: #000;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
