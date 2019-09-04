@@ -42,7 +42,6 @@ a{
     position: relative;
     text-decoration: none;
 }
-a:before,
 a:before {
     position: absolute;
     content: "";
@@ -52,10 +51,15 @@ a:before {
     top: 45%;
     left: 10%;
     z-index: -1;
+    transition: width .25s, height .5s;
 }
-a:hover,
-a:active {
-    background-color: #ffd900;
+a:hover:before,
+a:active:before{
+    width: 100%;
+    left: 0;
+    top: auto;
+    height: 110%;
+    transition: width .25s, height .5s;
 }
 .misson{
     text-align: center;
