@@ -114,9 +114,13 @@ article{
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-.resourses div{
+.resourses div,
+.blog div{
     padding: 2em 0;
     border-bottom: 1px solid black;
+}
+.blog a:nth-child(1){
+    display: inline-block;
 }
 .img-box{
     margin: 1em 0;
