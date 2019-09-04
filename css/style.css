@@ -145,6 +145,7 @@ blockquote p:first-child{
     background: #FEDC2A;
     color: #000;
     text-shadow: none;
+}
 @media only screen and (min-width: 768px){
     nav{
         font-size: 100%;
