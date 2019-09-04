@@ -60,7 +60,7 @@ a:active:before{
     width: 100%;
     left: 0;
     top: auto;
-    height: 110%;
+    height: 100%;
     -webkit-transition: all .275s;
     transition: all .275s;
 }
@@ -131,16 +131,12 @@ figcaption{
 blockquote{
     padding-left: 1em;
     border-left: .5rem solid #FEDC2A;
-    font-family: 'Anton', sans-serif;
 }
 .more-blog{
     padding-top: 2em;
 }
 .more-blog a:last-child{
     float: right;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Days One', sans-serif;
 }
 blockquote p:first-child{
     font-size: 25px;
