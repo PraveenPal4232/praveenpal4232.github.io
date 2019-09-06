@@ -67,7 +67,8 @@ footer{
     border-bottom:2px solid #FEDC2A;
 }
 main,
-article{
+article,
+aside{
     max-width: 600px;
     margin: auto;
     padding: 1em;
@@ -136,6 +137,9 @@ blockquote p:first-child{
     background: #FEDC2A;
     color: #000;
     text-shadow: none;
+}
+aside{
+
 }
 @media only screen and (min-width: 768px){
     nav{
