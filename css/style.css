@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,700,900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -18,14 +17,14 @@ li{
     list-style: square;
 }
 body {
-    font-family: 'Hepta Slab', serif;
+    font-family: monospace;
     color: #000;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.618;
 }
 nav{
@@ -48,8 +47,12 @@ a{
     box-shadow: inset 0 -0.07em 0 #FEDC2A;
     box-shadow: inset 0 -0.07em 0 #FEDC2A;
 }
-a:hover{
+a:hover,
+a:active{
  box-shadow: inset 0 -0.85em 0 #FEDC2A;
+}
+a:focus {
+    outline: 2px solid #FEDC2A;
 }
 
 .misson{
@@ -119,18 +122,14 @@ figcaption{
     font-style: italic;
 }
 blockquote{
-    padding-left: 1em;
-    border-left: .5rem solid #FEDC2A;
+    padding: 1em;
+    border: .5rem solid #FEDC2A;
 }
 .more-blog{
     padding-top: 2em;
 }
 .more-blog a:last-child{
     float: right;
-}
-blockquote p:first-child{
-    font-size: 25px;
-    font-style: italic;
 }
 ::selection {
     background: #FEDC2A;
@@ -149,14 +148,5 @@ aside{
     .intrests{
         grid-template-columns: repeat(3,1fr);
         grid-gap: 2em;
-    }
-    article h1{
-        font-size: 50px;
-    }
-    article h2{
-        font-size: 35px;
-    }
-    blockquote p:first-child{
-        font-size: 35px;
     }
 }
