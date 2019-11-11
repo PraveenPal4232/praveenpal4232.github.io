@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Permanent+Marker&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -135,7 +135,9 @@ figcaption{
 }
 blockquote{
     padding: 1em;
-    border: .5rem solid #FEDC2A;
+    border-left: .5rem solid #FEDC2A;
+    margin: 1em 0;
+    font-family: 'Permanent Marker', cursive;
 }
 .more-blog{
     padding-top: 2em;
