@@ -3,7 +3,12 @@
 const cacheName = '';
 const startPage = '/';
 const offlinePage = '/';
-const filesToCache = [startPage, offlinePage];
+const filesToCache = [
+  startPage,
+   offlinePage,
+   '/js/script.js',
+   'https://platform.twitter.com/widgets.js',
+  ];
 
 // Install
 self.addEventListener('install', function(e) {
