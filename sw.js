@@ -4,7 +4,6 @@ const cacheName = '';
 const startPage = '/';
 const offlinePage = '/';
 const filesToCache = [startPage, offlinePage];
-const neverCacheUrls = "";
 
 // Install
 self.addEventListener('install', function(e) {
@@ -39,12 +38,6 @@ self.addEventListener('activate', function(e) {
 
 // Fetch
 self.addEventListener('fetch', function(e) {
-
-    // Return if the current request url is in the never cache list
-    if (!neverCacheUrls.every(checkNeverCacheList, e.request.url)) {
-        console.log(' Current request is excluded from cache.');
-        return;
-    }
 
     // Return if request url protocal isn't http or https
     if (!e.request.url.match(/^(http|https):\/\//i))
@@ -90,11 +83,3 @@ self.addEventListener('fetch', function(e) {
         })
     );
 });
-
-// Check if current url is in the neverCacheUrls list
-function checkNeverCacheList(url) {
-    if (this.match(url)) {
-        return false;
-    }
-    return true;
-}
