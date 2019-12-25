@@ -7,6 +7,7 @@ const filesToCache = [
   startPage,
    offlinePage,
    '/js/script.js',
+   '/js/main.js',
    'https://platform.twitter.com/widgets.js',
   ];
 
