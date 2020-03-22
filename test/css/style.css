@@ -28,17 +28,16 @@ p{
     margin-bottom: 1rem;
     line-height: 1.4rem;
 }
-nav .container{
-    display: flex;
-    justify-content: space-between;
-}
+
 nav{
-    padding: .6em 0;
-    width: 100%;
+    padding: .6em 15px;
+    width: 100vw;
     position: fixed;
     background-color: #ffffff;
     z-index: 999;
     box-shadow: 1px 1px 5px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
 }
 .self-center{
     align-self: center;
@@ -67,7 +66,7 @@ nav{
     background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
   }
   .welcome-form-inner{
-    padding: 50px;
+    padding: 30px 15px;
     -webkit-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
@@ -78,10 +77,10 @@ nav{
     padding-top: 5vh;
 }
 .welcome-msg{
-  padding:10vh 0;
+  padding:10vh 0 0;
 }
 .welcome-msg h1{
-    font-size: 2.5em;
+    font-size: 1.6em;
     margin-bottom: .2em;
 }
 .text-center{
@@ -218,6 +217,9 @@ section{
     padding:.5em;
   }
 @media (min-width: 768px) {
+  nav{
+    padding: .6em 10%;
+  }
   .whatsapp{
     width: 37px;
     margin-right: 20px;
@@ -228,6 +230,9 @@ section{
   #by-screen{
     height: 100vh;
   }
+  .welcome-msg h1{
+    font-size: 2.5em;
+}
   .diffrent-box{
     margin-left: 0px;
   }
@@ -236,6 +241,9 @@ section{
   }
   #courses p{
     padding-right: 50px;
+  }
+  .welcome-form-inner{
+    padding: 50px;
   }
 }
 
