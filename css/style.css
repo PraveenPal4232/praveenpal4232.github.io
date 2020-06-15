@@ -30,16 +30,22 @@ a:focus {
 img{
     width: 100%;
 }
-p{
+p,
+li,
+time{
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 ul,
 ol{
-    padding-left: 1em;
+    padding-left: 1.2em;
 }
 li{
     list-style: square;
+}
+::selection {
+    background: #89948c;
+    color: #fff;
 }
 body {
     font-family: 'Barlow', sans-serif;
@@ -100,8 +106,7 @@ height: calc(100vh - 122px) !important;
 .welcome-banner h1{
     font-size: calc(25px + 2vw);
     align-self: center;
-    line-height: 1.5em;
-    /* margin: 1em auto; */
+    line-height: 1.3em;
     display: block;
 }
 
@@ -156,6 +161,9 @@ padding: 1em 0;
     border-bottom: 2px solid #d3dfd7;
     padding: 2em 0;
 }
+.blog-box:nth-last-child(1){
+    border-bottom: none;
+}
 .newsletter-form input{
     display: inline;
     padding: 1em;
@@ -179,6 +187,12 @@ padding: 1em 0;
     position: absolute !important;
     width: 1px;
     word-wrap: normal !important;
+}
+blockquote{
+    padding:0 1em;
+    font-size: 1.2rem;
+    border-left: 2px solid #3b3a36;
+    margin: 1em 0;
 }
 
 @media (min-width: 576px) { 
@@ -221,7 +235,10 @@ padding: 1em 0;
  }
 
  @media (min-width: 768px) { 
-
+    .blog-box p{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
 
   }
 
