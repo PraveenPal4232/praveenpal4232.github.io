@@ -57,7 +57,7 @@ body {
     margin: auto;
 }
 header{
-    padding: 2em 1em;
+    padding: 2em 1em 0 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -69,7 +69,8 @@ nav{
     align-self: center;
 }
 nav a{
-padding: .5em;
+padding: 2px 5px;
+margin: .5em;
 color: #3b3a36;
 font-weight: bold;
 }
@@ -94,7 +95,7 @@ hr{
     padding: 5em 2em;
 }
 .home-banner{
-height: calc(100vh - 145px) !important;
+height: calc(100vh - 122px) !important;
 }
 .welcome-banner h1{
     font-size: calc(25px + 2vw);
@@ -174,7 +175,7 @@ padding: 1em 0;
 
 @media (min-width: 576px) { 
     header {
-        padding: 2em;
+        padding: 2em 2em 0;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -182,7 +183,7 @@ padding: 1em 0;
         margin: initial;
     }
     .home-banner {
-        height: calc(100vh - 105px) !important;
+        height: calc(100vh - 80px) !important;
     }
     section{
         padding: 1.5em 2em;
@@ -220,6 +221,9 @@ padding: 1em 0;
     article,
     footer{
         padding: 3em 8em;
+    }
+    header{
+        padding-bottom: 0;
     }
         article {
             max-width: 52em;
