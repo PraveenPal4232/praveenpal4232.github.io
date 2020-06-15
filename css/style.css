@@ -101,7 +101,7 @@ hr{
     padding: 2em;
 }
 .home-banner{
-height: calc(100vh - 122px) !important;
+height: calc(100vh - 150px) !important;
 }
 .welcome-banner h1{
     font-size: calc(25px + 2vw);
