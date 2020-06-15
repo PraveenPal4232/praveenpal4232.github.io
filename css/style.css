@@ -92,7 +92,7 @@ hr{
 .welcome-banner{
     display: flex;
     background-color: #d3dfd7;
-    padding: 5em 2em;
+    padding: 2em;
 }
 .home-banner{
 height: calc(100vh - 122px) !important;
@@ -181,6 +181,9 @@ padding: 1em 0;
     }
     .logo {
         margin: initial;
+    }
+    .welcome-banner{
+        padding: 5em 2em;
     }
     .home-banner {
         height: calc(100vh - 80px) !important;
