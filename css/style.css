@@ -237,7 +237,15 @@ blockquote {
 #email {
   width: 205px;
 }
-
+.social-link a {
+  margin-right: 1.5em;
+}
+/* .about-img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+} */
 @media (min-width: 576px) {
   header {
     padding: 2em 2em 0;
@@ -249,6 +257,7 @@ blockquote {
   }
   .welcome-banner {
     padding: 5em 2em;
+    position: relative;
   }
   .home-banner {
     height: calc(100vh - 80px) !important;
